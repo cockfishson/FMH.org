@@ -1,0 +1,195 @@
+.h{
+    display: inline-block;
+    font-size: 40px;
+}
+#h_2{
+    margin-left: 300px;
+}
+#h_1{
+    margin-left: 20px;
+}
+.wrap{
+    width: 100%;
+}
+#team-info1, #team-info2, #team-info3,#team_of_choise{
+    display: inline-block;
+    margin-left: 5%;
+    background: #FEF1E7;
+    width: 300px;
+    height: 500px;
+    border-radius: 45px;
+    box-shadow: 3px 3px rgba(112, 102, 145, 0.8), -1em 0 .4em rgba(172, 191, 117, 0.8);
+    animation-name: slidein;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+  }
+  
+  #team-info1:nth-child(1),#team-info2:nth-child(1),#team-info3:nth-child(1),#team_of_choise:nth-child(1) {
+    animation-delay: 0.5s;
+  }
+  
+  #team-info1:nth-child(2),#team-info2:nth-child(2),#team-info3:nth-child(2),#team_of_choise:nth-child(2) {
+    animation-delay: 1s;
+  }
+  
+  #team-info1:nth-child(3),#team-info2:nth-child(3),#team-info3:nth-child(3),#team_of_choise:nth-child(3) {
+    animation-delay: 1.5s;
+  }
+  
+  #team-info1:nth-child(4),#team-info2:nth-child(4),#team-info3:nth-child(4),#team_of_choise:nth-child(4) {
+    animation-delay: 2s;
+  }
+  #team-info1:nth-child(5),#team-info2:nth-child(5),#team-info3:nth-child(5),#team_of_choise:nth-child(5) {
+    animation-delay: 2.5s;
+  }
+  #team-info1:nth-child(6),#team-info2:nth-child(6),#team-info3:nth-child(6),#team_of_choise:nth-child(6) {
+    animation-delay: 3s;
+  }
+  #team-info1:nth-child(7),#team-info2:nth-child(7),#team-info3:nth-child(7),#team_of_choise:nth-child(7) {
+    animation-delay: 3.5s;
+  }
+  #team-info1:nth-child(8),#team-info2:nth-child(8),#team-info3:nth-child(8),#team_of_choise:nth-child(8) {
+    animation-delay: 4s;
+  }
+  
+  @keyframes slidein {
+    from {
+      left: -800px;
+      opacity: 0;
+    }
+    to {
+      left: 100px;
+      opacity: 1;
+    }
+  }
+.img_choise{
+    width: 150px;
+    height: 150px;
+    padding-left: 75px;
+}
+.clubname{
+    font-size: 30px;
+    padding-left: 10px;
+}
+.club_info{
+    padding-left: 10px;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600 ;
+  }
+  .bar{
+      background-color: rgba(24, 10, 40, 1);
+      width: 100%;
+      height: 60px;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+  }
+  .logo{
+      width: 280px;
+      height: 60px;
+      cursor: pointer;
+  }
+  .nav {
+    margin-top: 61px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 20px;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  li {
+    margin-right: 20px;
+    border-bottom: 2px solid rgba(24, 10, 40, 1);
+    margin-left: 150px;
+  
+  }
+  
+  a {
+    font-size: 32px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+  }
+  
+  @media (max-width: 768px) {
+    .nav {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    ul {
+      flex-direction: column;
+      margin: 0;
+      padding: 0;
+      display: block;
+      width: 100%;
+    }
+  
+    li {
+      margin: 0;
+      text-align: center;
+      padding-left: 0px;
+    }
+  
+    a {
+      padding: 10px 0;
+      display: block;
+      border-bottom: 2px solid rgba(24, 10, 40, 1);
+    }
+  
+    .burger-menu {
+      display: block;
+      cursor: pointer;
+    }
+    .rastravaja_shtuka{
+      width: 0px;
+      height: 0px;
+      background-image: none;
+    }
+    .rastravaja_shtuka_mirrored{
+      width: 0px;
+      height: 0px;
+      background-image: none;
+    }
+    .main_thing{
+      width: 100%;
+      height: 2800px;
+      left: 8px;
+      top: 119px;
+      background: #E6D9FC;
+      align-items: center
+    }
+    #team-info1, #team-info2, #team-info3{
+        display: block;
+        margin-left: 10px;
+        margin-top: 50px;
+        background: #FEF1E7;
+        width: 80%;
+        height: 25%;
+    }
+  }
+  .rastravaja_shtuka{
+    width: 100%;
+    height: 180px;
+    background-image: url("droch.png");
+  }
+  .main_thing{
+    width: 100%;
+    height: 800px;
+    background: #E6D9FC;
+    align-items: center
+  }
+  .rastravaja_shtuka_mirrored{
+    width: 100%;
+    height: 180px;
+    background-image: url("droch_zerkalnaja.png");
+  }
