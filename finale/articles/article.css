@@ -3,7 +3,7 @@ body{
     font-weight: 600 ;
     background-color: rgba(217, 217, 217, 1);
   }
-  li:hover{
+  li:hover, a:hover{
     border-bottom: 4px solid rgb(10, 2, 19);
     font-size: 35px;
     font-weight: bold;
@@ -34,13 +34,14 @@ body{
   ul {
     display: flex;
     list-style: none;
+    width: 100%;
   }
   
   li {
-    margin-right: 20px;
+    margin-right: 1%;
     border-bottom: 2px solid rgba(24, 10, 40, 1);
-    margin-left: 150px;
-  
+    margin-left: 10%;
+    width: auto;
   }
   
   a {
@@ -125,6 +126,8 @@ body{
   }
   .filler1{
     display: inline-block;
+    width: 50%;
+    margin-left: 5%;
   }
   #dychy{
     width: 30%;
@@ -132,11 +135,28 @@ body{
   }
   .filler2{
     display: inline-block;
+    width: 50%;
+    margin-left: 5%;
   }
   #tactic{
     width: 30%;
     height: 40%;
   }
   #search{
-    width: 100%;
+    width: 60%;
+    margin-left: 20%;
+  }
+  .srch{
+    word-wrap: break-word;
+    font-size: 20px;
+    margin-left: 5%;
+    width: 80%;
+  }
+  span{
+    font-size: 23px;
+    font-weight: 800;
+  }
+  span:hover{
+    font-size: 25px;
+    font-weight: 900;
   }

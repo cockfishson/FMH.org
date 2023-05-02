@@ -3,12 +3,12 @@ body {
   font-weight: 600;
 }
 
-li:hover {
-  border-bottom: 4px solid rgb(10, 2, 19);
-  font-size: 35px;
-  font-weight: bold;
-  color: rgb(78, 58, 102);
-}
+li:hover, a:hover{
+    border-bottom: 4px solid rgb(10, 2, 19);
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(78, 58, 102);
+  }
 
 .bar {
   background-color: rgb(24, 10, 40);
@@ -167,6 +167,7 @@ a {
   display: inline-block;
   margin-top: 10px;
   margin-left: 20px;
+  border-radius: 40px;
 }
 
 .art_wrap {
@@ -225,4 +226,8 @@ p {
   background: #FFFFFF;
   border: 1px solid #33205C;
   border-radius: 60px;
+  margin-bottom: 5%;
+}
+.influencer:hover, .article:hover, .icon:hover, .inf_logo:hover{
+    box-shadow: -8px 4px 26px 20px rgba(80, 48, 34, 0.5);
 }

@@ -2,7 +2,7 @@ body{
   font-family: 'Ubuntu', sans-serif;
   font-weight: 600 ;
 }
-li:hover{
+li:hover, a:hover{
   border-bottom: 4px solid rgb(10, 2, 19);
   font-size: 35px;
   font-weight: bold;
@@ -75,10 +75,6 @@ a {
     border-bottom: 2px solid rgba(24, 10, 40, 1);
   }
 
-  .burger-menu {
-    display: block;
-    cursor: pointer;
-  }
   .rastravaja_shtuka{
     width: 0px;
     height: 0px;
@@ -119,6 +115,12 @@ a {
   #scls_p{
     font-size: 5px;
     display: none;
+  }
+  p{
+    font-size:10px;
+  }
+  h1{
+    font-size: 17px;
   }
 }
 .rastravaja_shtuka{

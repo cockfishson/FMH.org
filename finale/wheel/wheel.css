@@ -33,12 +33,12 @@ text{
 .wrap{
 position: relative;
 }
-li:hover{
+li:hover, a:hover{
     border-bottom: 4px solid rgb(10, 2, 19);
     font-size: 35px;
     font-weight: bold;
     color: rgb(78, 58, 102);
-}
+  }
 .text:hover{
     box-shadow: 3px 3px rgba(112, 102, 145, 0.8), -1em 0 .4em rgba(172, 191, 117, 0.8);
 }

@@ -18,7 +18,7 @@
     width: 20%;
     height: 70%;
     border-radius: 45px;
-    box-shadow: 3px 3px rgba(112, 102, 145, 0.8), -1em 0 .4em rgba(172, 191, 117, 0.8);
+    box-shadow: 3px 3px rgba(112, 102, 145, 0.5), -1em 0 .4em rgba(226, 255, 138, 0.5);
     animation-name: slidein;
     animation-duration: 1s;
     animation-delay: 0.5s;
@@ -66,7 +66,7 @@
 .img_choise{
     width: 150px;
     height: 150px;
-    padding-left: 75px;
+    margin-left: 100px;
 }
 .clubname{
     font-size: 30px;
@@ -204,9 +204,12 @@ body{
     height: 180px;
     background-image: url("droch_zerkalnaja.png");
   }
-  li:hover{
+  li:hover, a:hover{
     border-bottom: 4px solid rgb(10, 2, 19);
     font-size: 35px;
     font-weight: bold;
     color: rgb(78, 58, 102);
-}
+  }
+  #team-info1:hover, #team-info2:hover, #team-info3:hover, #team_of_choise:hover{
+   box-shadow: -8px 4px 26px 20px rgba(80, 48, 34, 0.5);  
+  }

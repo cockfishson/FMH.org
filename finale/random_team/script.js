@@ -2776,8 +2776,277 @@ const teams = [
             stadium: "Simple Digital Arena",
             capacity: 8012,
             founded: 1877
+          },
+          {
+            name: "SK Rapid Wien",
+            country: "Austria",
+            league: "Österreichische Fußball-Bundesliga",
+            city: "Vienna",
+            stadium: "Allianz Stadion",
+            capacity: 28733,
+            founded: 1899
+          },
+          {
+            name: "Red Bull Salzburg",
+            country: "Austria",
+            league: "Österreichische Fußball-Bundesliga",
+            city: "Salzburg",
+            stadium: "Red Bull Arena",
+            capacity: 30491,
+            founded: 1933
+          },
+          {
+            name: "SK Sturm Graz",
+            country: "Austria",
+            league: "Österreichische Fußball-Bundesliga",
+            city: "Graz",
+            stadium: "Merkur Arena",
+            capacity: 15388,
+            founded: 1909
+          },
+          {
+            name: "FK Austria Wien",
+            country: "Austria",
+            league: "Österreichische Fußball-Bundesliga",
+            city: "Vienna",
+            stadium: "Generali Arena",
+            capacity: 17500,
+            founded: 1911
+          },
+          {
+            name: "SKN St. Pölten",
+            country: "Austria",
+            league: "Österreichische Fußball-Bundesliga",
+            city: "St. Pölten",
+            stadium: "NV Arena",
+            capacity: 8000,
+            founded: 2000
+          },
+          {
+            name: "Wolfsberger AC",
+            country: "Austria",
+            league: "Österreichische Fußball-Bundesliga",
+            city: "Wolfsberg",
+            stadium: "Lavanttal-Arena",
+            capacity: 7100,
+            founded: 1931
+          },
+          {
+            name: "FC Admira Wacker Mödling",
+            country: "Austria",
+            league: "Österreichische Fußball-Bundesliga",
+            city: "Maria Enzersdorf",
+            stadium: "Bundesstadion Südstadt",
+            capacity: 12000,
+            founded: 1905
+          },
+          {
+            name: "SCR Altach",
+            country: "Austria",
+            league: "Österreichische Fußball-Bundesliga",
+            city: "Altach",
+            stadium: "CASHPOINT Arena",
+            capacity: 8500,
+            founded: 1929
+          },
+          {
+            name: "FC Flyeralarm Admira",
+            country: "Austria",
+            league: "Österreichische Fußball-Bundesliga",
+            city: "Maria Enzersdorf",
+            stadium: "Bundesstadion Südstadt",
+            capacity: 12000,
+            founded: 1905
+          },
+          {
+            name: "TSV Hartberg",
+            country: "Austria",
+            league: "Österreichische Fußball-Bundesliga",
+            city: "Hartberg",
+            stadium: "Profertil Arena Hartberg",
+            capacity: 4500,
+            founded: 1946
+          },
+          {
+            name: "Bohemians",
+            country: "Ireland",
+            league: "Irish Premier Division",
+            city: "Dublin",
+            stadium: "Dalymount Park",
+            capacity: 3199,
+            founded: 1890
+          },
+          {
+            name: "Derry City",
+            country: "Ireland",
+            league: "Irish Premier Division",
+            city: "Derry",
+            stadium: "Ryan McBride Brandywell Stadium",
+            capacity: 7931,
+            founded: 1928
+          },
+          {
+            name: "Drogheda United",
+            country: "Ireland",
+            league: "Irish Premier Division",
+            city: "Drogheda",
+            stadium: "Head in the Game Park",
+            capacity: 4000,
+            founded: 1919
+          },
+          {
+            name: "Finn Harps",
+            country: "Ireland",
+            league: "Irish Premier Division",
+            city: "Ballybofey",
+            stadium: "Finn Park",
+            capacity: 6000,
+            founded: 1954
+          },
+          {
+            name: "Longford Town",
+            country: "Ireland",
+            league: "Irish Premier Division",
+            city: "Longford",
+            stadium: "Bishopsgate",
+            capacity: 2084,
+            founded: 1924
+          },
+          {
+            name: "Shamrock Rovers",
+            country: "Ireland",
+            league: "Irish Premier Division",
+            city: "Dublin",
+            stadium: "Tallaght Stadium",
+            capacity: 8250,
+            founded: 1901
+          },
+          {
+            name: "Sligo Rovers",
+            country: "Ireland",
+            league: "Irish Premier Division",
+            city: "Sligo",
+            stadium: "The Showgrounds",
+            capacity: 5500,
+            founded: 1928
+          },
+          {
+            name: "St. Patrick's Athletic",
+            country: "Ireland",
+            league: "Irish Premier Division",
+            city: "Dublin",
+            stadium: "Richmond Park",
+            capacity: 5335,
+            founded: 1929
+          },
+          {
+            name: "Waterford",
+            country: "Ireland",
+            league: "Irish Premier Division",
+            city: "Waterford",
+            stadium: "Regional Sports Centre",
+            capacity: 6000,
+            founded: 1930
+          },
+          {
+            name: "Sligo Rovers",
+            country: "Ireland",
+            league: "Irish Premier Division",
+            city: "Sligo",
+            stadium: "The Showgrounds",
+            capacity: 5500,
+            founded: 1928
+          },{
+            name: "BSC Young Boys",
+            country: "Switzerland",
+            league: "Super League",
+            city: "Bern",
+            stadium: "Stade de Suisse",
+            capacity: 31700,
+            founded: 1898
+          },
+          {
+            name: "FC Basel",
+            country: "Switzerland",
+            league: "Super League",
+            city: "Basel",
+            stadium: "St. Jakob-Park",
+            capacity: 38512,
+            founded: 1893
+          },
+          {
+            name: "FC Lausanne-Sport",
+            country: "Switzerland",
+            league: "Super League",
+            city: "Lausanne",
+            stadium: "Stade Olympique de la Pontaise",
+            capacity: 15000,
+            founded: 1896
+          },
+          {
+            name: "FC Lugano",
+            country: "Switzerland",
+            league: "Super League",
+            city: "Lugano",
+            stadium: "Stadio di Cornaredo",
+            capacity: 14829,
+            founded: 1908
+          },
+          {
+            name: "FC Luzern",
+            country: "Switzerland",
+            league: "Super League",
+            city: "Lucerne",
+            stadium: "Swissporarena",
+            capacity: 17400,
+            founded: 1901
+          },
+          {
+            name: "FC Sion",
+            country: "Switzerland",
+            league: "Super League",
+            city: "Sion",
+            stadium: "Stade de Tourbillon",
+            capacity: 14000,
+            founded: 1909
+          },
+          {
+            name: "FC St. Gallen",
+            country: "Switzerland",
+            league: "Super League",
+            city: "St. Gallen",
+            stadium: "Kybunpark",
+            capacity: 20000,
+            founded: 1879
+          },
+          {
+            name: "FC Vaduz",
+            country: "Liechtenstein",
+            league: "Super League",
+            city: "Vaduz",
+            stadium: "Rheinpark Stadion",
+            capacity: 5785,
+            founded: 1932
+          },
+          {
+            name: "Grasshopper Club Zürich",
+            country: "Switzerland",
+            league: "Super League",
+            city: "Zurich",
+            stadium: "Letzigrund",
+            capacity: 25000,
+            founded: 1886
+          },
+          {
+            name: "Servette FC",
+            country: "Switzerland",
+            league: "Super League",
+            city: "Geneva",
+            stadium: "Stade de Genève",
+            capacity: 30150,
+            founded: 1890
           }
-        
+
   ];
   
   const teamInfo1 = document.getElementById('team-info1');
@@ -2793,7 +3062,7 @@ const teams = [
   
   function displayTeamInfo(team,x) {
     x.innerHTML = `
-        <img class="img_choise">
+      <img src="generic.png" class="img_choise">
       <p class="clubname">${team.name}</p>
       <p class="club_info">Country: ${team.country}</p>
       <p class="club_info">League: ${team.league}</p>

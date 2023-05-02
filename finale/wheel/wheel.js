@@ -176,3 +176,8 @@ if(window.hasOwnProperty("crypto") && typeof window.crypto.getRandomValues === "
 
 return array;
 }
+function check(){
+if (window.innerWidth <= 768) {
+    document.querySelector(".main_thing").innerHTML = "<h1>Sorry this feature isn't supported on mobile devices</h1>";
+}
+}
