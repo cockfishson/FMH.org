@@ -11,47 +11,7 @@
 .wrap{
     width: 100%;
 }
-#team-info1, #team-info2, #team-info3,#team_of_choise{
-    display: inline-block;
-    margin-left: 3%;
-    background: #FEF1E7;
-    width: 20%;
-    height: 70%;
-    border-radius: 45px;
-    box-shadow: 3px 3px rgba(112, 102, 145, 0.5), -1em 0 .4em rgba(226, 255, 138, 0.5);
-    animation-name: slidein;
-    animation-duration: 1s;
-    animation-delay: 0.5s;
-    animation-fill-mode: forwards;
-  }
-  
-  #team-info1:nth-child(1),#team-info2:nth-child(1),#team-info3:nth-child(1),#team_of_choise:nth-child(1) {
-    animation-delay: 0.5s;
-  }
-  
-  #team-info1:nth-child(2),#team-info2:nth-child(2),#team-info3:nth-child(2),#team_of_choise:nth-child(2) {
-    animation-delay: 1s;
-  }
-  
-  #team-info1:nth-child(3),#team-info2:nth-child(3),#team-info3:nth-child(3),#team_of_choise:nth-child(3) {
-    animation-delay: 1.5s;
-  }
-  
-  #team-info1:nth-child(4),#team-info2:nth-child(4),#team-info3:nth-child(4),#team_of_choise:nth-child(4) {
-    animation-delay: 2s;
-  }
-  #team-info1:nth-child(5),#team-info2:nth-child(5),#team-info3:nth-child(5),#team_of_choise:nth-child(5) {
-    animation-delay: 2.5s;
-  }
-  #team-info1:nth-child(6),#team-info2:nth-child(6),#team-info3:nth-child(6),#team_of_choise:nth-child(6) {
-    animation-delay: 3s;
-  }
-  #team-info1:nth-child(7),#team-info2:nth-child(7),#team-info3:nth-child(7),#team_of_choise:nth-child(7) {
-    animation-delay: 3.5s;
-  }
-  #team-info1:nth-child(8),#team-info2:nth-child(8),#team-info3:nth-child(8),#team_of_choise:nth-child(8) {
-    animation-delay: 4s;
-  }
+
   
   @keyframes slidein {
     from {
@@ -114,7 +74,7 @@ body{
   }
   
   a {
-    font-size: 32px;
+    font-size: 25px;
     text-decoration: none;
     text-align: center;
     color: black;
@@ -161,13 +121,14 @@ body{
       background: #E6D9FC;
       align-items: center
     }
-    #team-info1, #team-info2, #team-info3, #team_of_choise{
+    .card{
         display: block;
         margin-left: 10px;
         margin-top: 25px;
-        background: #FEF1E7;
         width: 90%;
         height: 20%;
+        animation-name: slidein;
+        animation-duration: 2s;
     }
       .img_choise{
         display: none;
@@ -206,10 +167,56 @@ body{
   }
   li:hover, a:hover{
     border-bottom: 4px solid rgb(10, 2, 19);
-    font-size: 35px;
+    font-size: 26px;
     font-weight: bold;
     color: rgb(78, 58, 102);
   }
-  #team-info1:hover, #team-info2:hover, #team-info3:hover, #team_of_choise:hover{
-   box-shadow: -8px 4px 26px 20px rgba(80, 48, 34, 0.5);  
+  
+  .card {
+    backdrop-filter: blur(5px);
+    width: 20%;
+    height: 50%;
+    margin-left: 4%;
+    display: inline-block;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.051),
+      0px 0px 7.2px rgba(0, 0, 0, 0.073), 0px 0px 13.6px rgba(0, 0, 0, 0.09),
+      0px 0px 24.3px rgba(0, 0, 0, 0.107), 0px 0px 45.5px rgba(0, 0, 0, 0.129),
+      0px 0px 109px rgba(0, 0, 0, 0.18);
+  }
+  
+  .glare-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .glare {
+    position: absolute;
+    width: 150%;
+    height: 150%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0) 20%
+    );
+    transform: rotateZ(35deg);
+    pointer-events: none;
+    filter: blur(4px);
+  }
+  
+  .card-0{
+    background-color: rgba(224, 193, 108, 0.3);
+  }
+  
+  .card-1 {
+    background-color: rgba(255, 59, 0, 0.37);
+  }
+  
+  .card-2 {
+    background-color: rgba(255, 0, 0, 0.23);
+  }
+  .card-3{
+    background-color: rgba(0, 183, 255, 0.23);
   }

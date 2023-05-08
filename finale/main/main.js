@@ -1,6 +1,6 @@
 var xhttp = new XMLHttpRequest();
 // Открываем файл footer.xml
-xhttp.open("GET", "footer.xml", true);
+xhttp.open("GET", "./main/footer.xml", true);
 // Когда файл загружен
 xhttp.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
